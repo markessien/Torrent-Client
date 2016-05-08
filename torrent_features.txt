@@ -1,0 +1,42 @@
+#
+	
+manage a queue (move up, down, specify number of simultaneous downloads	
+#
+	
+save torrents on shutdown and reload them when restarted	
+#
+	
+Popup notification tooltips when download complete	
+#
+	
+Make file type association with app	
+#
+	
+Option to start added torrent immediately or add it paused	
+#
+	
+Generate a random port on each start	
+#
+	
+Auto removal of torrents if they have been in there for a while	
+#
+	
+Proxy server settings	
+#
+	
+Do not set the speed settings at anything fixed	
+#
+	
+Verify that the preferences dialog works and sets the values
+
+* Add a right click menu to the top listview
+* Client does not shut down
+* When download starts, the progress does not get updates till you click
+* The seeding state should show a new icon that represents seeding
+* When tracker not yet responded, the status should be "working.."
+* Test the delete and remove buttons
+* When done, fire a message to the app
+* Show an icon below when incoming connection
+* Move file to complete directory when done
+* Add function to execute file and make it work from menu item
+* When finished and seeding, the file progress should still display

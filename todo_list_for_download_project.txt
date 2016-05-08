@@ -1,0 +1,28 @@
+* Add the function to generate random port
+* Make the proxy server settings work
+
+* Add notification tooltip when the download is complete
+* Add the file type asociation work
+* Auto removal of torrents if they have been there for a while
+
+* Add function to update tracker (force reannounce)
+* One should be able to add and remove trackers
+* One should not be able to move downloads below seeds
+
+
+Not so critical
+---------------
+* Show an icon below when incoming connection
+* When tracker not yet responded, the status should be "working.." (or find out why some trackers do not seem to be working for me, like when you have both localhost and 127 in the list)
+* Add function to execute file and make it work from menu item
+* When item is set to -1 (in delete function), the window should redraw as grey bars
+* When items are added to the list, they should instantly have a name, and not a few minutes later as it now is
+
+To test
+-------
+* Test all possible scenarios with the queue (delete, remove, item complete)
+
+Optimizations
+-------------
+* Move the update stuff to a new low priority thread
+* When finished and seeding, the file progress should still display
